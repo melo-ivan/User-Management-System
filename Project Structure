@@ -1,0 +1,11 @@
+user_management_system/
+│
+├── app.py
+├── config.py
+├── models.py
+└── templates/
+    ├── base.html
+    ├── login.html
+    ├── register.html
+    ├── profile.html
+    └── update.html
