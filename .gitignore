@@ -1,0 +1,35 @@
+
+---
+
+### **.gitignore**
+
+Here’s the `.gitignore` file to ignore unnecessary files from being committed to the repository.
+
+```gitignore
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# SQLite database
+*.sqlite3
+*.db
+
+# Flask
+instance/
+.env
+
+# IDE-specific files
+.vscode/
+.idea/
+*.swp
+
+# System files
+.DS_Store
+Thumbs.db
