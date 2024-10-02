@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+    <h2>Profile</h2>
+    <form method="POST">
+        {{ form.hidden_tag() }}
+        {{ form.username.label }} {{ form.username() }}<br>
+        {{ form.email.label }} {{ form.email() }}<br>
+        {{ form.submit() }}
+    </form>
+    <form method="POST" action="{{ url_for('delete_account') }}">
+        <button type="submit">Delete Account</button>
+    </form>
+{% endblock %}
